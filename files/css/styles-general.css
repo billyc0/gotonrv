@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #003399;
+}
+
+.big-icon {
+	font-size: 50px;
+}
+
+.center-element {
+	display: block;
+	left: 50%;
+	margin: auto;
+	position: inherit;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	transform: -webkit-translate(-50%,-50%);
+	transform: -moz-translate(-50%,-50%);
+	transform: -ms-translate(-50%,-50%);
+}
+
+.center-element2 {
+	display: block;
+	left: 50%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	transform: -webkit-translate(-50%,-50%);
+	transform: -moz-translate(-50%,-50%);
+	transform: -ms-translate(-50%,-50%);
+}
+
+.descriptions {
+	font-size: x-large;
+}
+
+.footer {
+	background-color: black;
+	color: #FAFAFA;
+	padding-bottom: 8vh;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 8vh;
+	text-align: center;
+	width: 100%;
+}
+
+.footer a:link {
+	color: #00AB00;
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: #00AB00;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #FAFAFA;
+	text-decoration: none;
+}
+
+.footer a:active {
+	color: #FAFAFA;
+	text-decoration: none;
+}
+
+.header-font {
+	font-family: 'Oswald', sans-serif;
+}
+
+.link {
+	
+}
+
+.link a:link {
+	color: #003399;
+	text-decoration: none;
+}
+
+.link a:visited {
+	color: #003399;
+	text-decoration: none;
+}
+
+.link a:hover {
+	color: #003300;
+	text-decoration: none;
+}
+
+.link a:active {
+	color: #003300;
+	text-decoration: none;
+}
+
+.menu {
+	background-color: #FAFAFA;
+	padding-bottom: 3vh;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 3vh;
+}
+
+.nav {
+	display: block;
+	float: right;
+	font-size: x-large;
+	text-align: right;
+}
+
+.para-font {
+	font-family: 'Lato', sans-serif;
+}
+
+.social {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+			
+.social img {
+	width: 50px;
+}
+
+.text-allcaps {
+	text-transform: uppercase;
+}
+
+.wrapper {
+	margin: auto;
+	width: 100%;
+}
+
+@media (max-width: 576px) {
+	
+	.descriptions {
+		font-size: large;
+	}
+	
+	.menu-logo {
+		display: block;
+		margin: auto;
+	}
+	
+	.nav {
+		float: none;
+		padding-top: 2vh;
+		text-align: center;
+	}
+	
+	.social img {
+		width: 40px;
+	}
+}
+
+/* Index */
+
+.home-app {
+	background-color:  #003300;
+	color: #FAFAFA;
+	padding-bottom: 15vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15vh;
+	text-align: center;
+	width: 100%;
+}
+
+.home-contact {
+	background-color: #FAFAFA;
+	padding-bottom: 15vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15vh;
+	text-align: center;
+	width: 100%;
+}
+
+.home-counties {
+	background-color: #003399;
+	color: #FAFAFA;
+	padding-bottom: 15vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15vh;
+	text-align: center;
+	width: 100%;
+}
+
+.home-form {
+	margin: auto;
+	width: 60%;
+}
+
+.home-gotonrv {
+	background-color: #FAFAFA;
+	padding-bottom: 15vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15vh;
+	text-align: center;
+	width: 100%;
+}
+
+.home-image {
+	background-attachment: scroll;
+	background-image: url(../images/background1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.home-thenrv {
+	background-color: #003300;
+	color: #FAFAFA;
+	padding-bottom: 15vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15vh;
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-height: 700px) {
+	
+	.center-element2 {
+		display: block;
+		left: auto;
+		margin: auto;
+		position: static;
+		top: auto;
+		transform: none;
+	}
+	
+	.home-image {
+		height: auto;
+		padding-bottom: 15vh;
+		padding-top: 15vh;
+	}
+	
+	.home-logo-mobile {
+		display: block;
+		margin: auto;
+	}
+} 
+
+@media (max-width: 960px) {
+	
+	.home-form {
+		width: 80%;
+	}
+	
+	.home-logo-100 {
+		width: 100%;
+	}
+	
+	.home-logo-mobile {
+		display: block;
+		margin: auto;
+		width: 80%;
+	}
+}
+
+@media (max-width: 576px) {
+	
+	.home-form {
+		width: 90%;
+	}
+	
+	.home-logo-mobile {
+		width: 90%;
+	}
+}
+
+/* Guides */
+
+.guide-image {
+	background-attachment: scroll;
+	background-image: url(../images/background2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+}
+
+.guide-intro {
+	background-color: #003300;
+	color: #FAFAFA;
+	padding-bottom: 15vh;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 15vh;
+	text-align: center;
+	width: 100%;
+}
